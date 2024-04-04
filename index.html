@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <!-- Site Title-->
+    <title>SolManosDeTijera</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fira+Sans:300,600,800,800i%7COpen+Sans:300,400,400i">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="cssload-container">
+        <svg class="filter" version="1.1">
+          <defs>
+            <filter id="gooeyness">
+              <fegaussianblur in="SourceGraphic" stddeviation="10" result="blur"></fegaussianblur>
+              <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness"></fecolormatrix>
+              <fecomposite in="SourceGraphic" in2="gooeyness" operator="atop"></fecomposite>
+            </filter>
+          </defs>
+        </svg>
+        <div class="dots">
+          <div class="dot mainDot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <!-- Page-->
+    <div class="page">
+      <header class="page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar_transparent rd-navbar_boxed" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-stick-up-clone="false" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-md-stick-up-offset="115px" data-lg-stick-up-offset="35px" data-body-class="rd-navbar-absolute">
+            <div class="rd-navbar-inner rd-navbar-search-wrap">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel rd-navbar-search-lg_collapsable">
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/logo.png" alt="" width="172" height="33"/></a></div>
+              </div>
+              <!-- RD Navbar Nav-->
+              <div class="rd-navbar-nav-wrap rd-navbar-search_not-collapsable">
+                <div class="rd-navbar-search_collapsable">
+                  <ul class="rd-navbar-nav">
+                    <li class="active"><a href="index.html">Inicio</a>
+                    </li>
+                    <li><a href="blog.html">Blog</a>
+                    </li>
+                    <li><a href="typography.html">Cursos</a>
+                    </li>
+                    <li><a href="contacts.html">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Swiper-->
+      <svg class="defs">
+        <defs>
+          <lineargradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="50%" stop-color="#AA54ED">
+              <animate attributename="stop-color" values="#AA54ED; #5348E2; #AA54ED" dur="5s" repeatcount="indefinite"></animate>
+            </stop>
+            <stop offset="100%" stop-color="#5348E2">
+              <animate attributename="stop-color" values="#5348E2; #AA54ED; #5348E2" dur="5s" repeatcount="indefinite"></animate>
+            </stop>
+          </lineargradient>
+        </defs>
+      </svg>
+      <div class="swiper-container swiper-slider" data-effect="frame-trapeze" data-loop="true" data-autoplay="5500" data-speed="1200" data-mousewheel="false" data-keyboard="true" data-frame-fill="url(#gradient1)">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-slide-img" style="background-image: url(images/fondosilice-1.png);" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }"></div>
+            <div class="swiper-slide-caption text-center context-dark">
+              <h2 data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">Tu curla <br>en su mejor<br> versión</h2>
+              
+              <div class="group-lg group-middle" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }"><a class="button button-primary button-shadow" href="#features" data-custom-scroll-to="features">Sacá tu turno</a></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-img" style="background-image: url(images/fondosilice-4.png);" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }"></div>
+            <div class="swiper-slide-caption text-center context-dark">
+              <h2 data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">Colores <br>vibrantes </h2>
+              
+              <div class="group-lg group-middle" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }"><a class="button button-primary button-shadow" href="#features" data-custom-scroll-to="features">Sacá tu turno</a></div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-img" style="background-image: url(images/fondosilice-2.png);" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }"></div>
+            <div class="swiper-slide-caption context-dark">
+              <h2 data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">Movimiento y color <br class="d-none d-lg-block"> en mis manos</h2><a class="button button-primary button-shadow" href="#" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }">Sacá tu turno</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-img" style="background-image: url(images/fondosilice-3.png);" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }"></div>
+            <div class="swiper-slide-caption context-dark">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-7">
+                    <h2 data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">Todo el estilo</h2>
+                  
+                    <div class="group-lg group-middle" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }"><a class="button button-black button-shadow" href="#features" data-custom-scroll-to="features">Sacá tu turno</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev linear-icon-chevron-left"></div>
+        <div class="swiper-button-next linear-icon-chevron-right"></div>
+      </div>
+      <section class="section-xs section-cta  text-center text-md-left social">
+        <div class="container">
+          <div class="row row-30 justify-content-between align-items-center">
+            <div class="col-12 col-md-8">
+              <h4> Formá parte de nuestra comunidad</h4>
+              <p>SEGUINOS EN INSTAGRAM.</p>
+            </div>
+            <div class="col-12 col-md-4 text-md-right">
+              <ul class="list-inline-xxs red-banner">
+                <li><a class="icon icon-xxs icon-primary fa fa-instagram" href="#"></a></li>
+                
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About us-->
+      <section class="bg-gray-lighter object-wrap">
+        <div class="bg-decor d-flex align-items-center justify-content-start" data-parallax-scroll="{&quot;y&quot;: 50,  &quot;smoothness&quot;: 30}"><img src="" alt=""/>
+        </div>
+        <div class="section-lg">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5">
+                <h4 class="heading-decorated">Sol manos de tijera</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dicta fugiat a quae odit? Itaque amet maxime possimus vel. Sequi hic, nesciunt eaque earum sed consequuntur odit vel rem, assumenda totam animi officia repudiandae eos sunt ipsam voluptas quisquam quas similique quae quia voluptatem, quidem maiores nam placeat. Dolore fugiat voluptas rerum voluptatum doloremque dolores quaerat beatae corrupti modi incidunt quisquam eius obcaecati explicabo praesentium facere a ducimus eos, natus minima? Nemo, quod incidunt. Fugiat temporibus laborum eligendi, omnis, cupiditate quod aspernatur ducimus illum ipsa accusantium iure esse illo numquam veniam harum distinctio animi nostrum ipsam vel consequatur id. Ab blanditiis fugiat id facilis deleniti, vitae voluptatum repellat, sint tenetur quaerat odio recusandae. Nulla harum esse dolores architecto deserunt vitae quae asperiores non quam rerum? Beatae numquam, aspernatur libero, quasi dicta quos a vitae delectus impedit sit iste magnam itaque. Molestias magni quaerat commodi velit beatae eaque voluptate, expedita nostrum.</p>
+            
+                <div class="row justify-content-md-center">
+                  <div class="col-md-12">
+             
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="object-wrap__body object-wrap__body-sizing-1 object-wrap__body-md-right bg-image" style="background-image: url(images/solmanos.JPG)"></div>
+      </section>
+      <!-- Our Services-->
+      <section class="section-md bg-default text-center decor-text" id="features" data-content="">
+        <div class="bg-decor d-flex align-items-center" data-parallax-scroll="{&quot;x&quot;: 80,  &quot;smoothness&quot;: 30}"><img src="./images/patronpop.png" alt=""/>
+        </div>
+        <div class="container services-width">
+          <h4 class="heading-decorated"> servicios</h4>
+          <div class="row row-50 justify-content-md-center justify-content-lg-start text-left">
+            <div class="col-md-6 col-xl-3">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Experiencia de corte:</a></p>
+                    <p> Incluye lavado de cabello, diagnostico capilar, elección y proceso de realización de corte, Finalizado ( secado)..</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Retoque de rapada/Flequillo:</a></p>
+                    <p> Este servicio se le ofrece a nuestros clientes que desean mantener su rapada o flequillo al día sin necesidad de realizar corte completo.  Los retoques solo se solicitan para rapadas o flequillos y únicamente en personas que ya sean clientes del estudio</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Experiencia de Peinado:</a></p>
+                    <p>Realizamos un diagnostico a través de nuestros medios de comunicación, pautamos si es necesario una prueba de peinado o no. Se realiza un presupuesto. El día del turno se realiza lavado de cabello y el peinado. Incluye Horquillas, coletas. No incluye accesorios.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Experiencia de lavado ácido:</a></p>
+                    <p>Este servicio se brinda a clientes que quieran realizar un lavado y sellado de cutícula. Lo cual incluye el lavado propiamente dicho + aplicación de acidificación + finalización y secado.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Experiencia de lavado hidratante:</a></p>
+                    <p> Este servicio se brinda a clientes que solo quieran devolver agua a su cabello.  Lo cual incluye el lavado propiamente dicho + aplicación de masc. hidratante + sellado + finalización y secado.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <!-- Blurb circle -->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Experiencia lavado Nutritivo:</a></p>
+                    <p>Este servicio se brinda a clientes que quieran recuperar los aceites escenciales de su cabello.  Lo cual incluye lavado  + aplicación de masc. nutritiva + sellado + finalización y secado.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <!-- Blurb minimal-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Experiencia lavado Proteico:</a></p>
+                    <p>Este servicio se brinda a clientes que solo quieran recuperar la estructura, reconstruir y devolver aminoácidos y proteínas de su cabello.  Lo cual incluye el lavado propiamente dicho + aplicación de ampolla + sellado + finalización y secado.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <!-- Blurb minimal-->
+              <article class="blurb blurb-minimal">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-minimal__icon"></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6"><a href="#">Experiencia coctel:</a></p>
+                    <p>Este servicio ofrece tratamiento para cabello dañado, restaurando hidratación, aceites, estructura, aminoácidos y proteínas. Incluye lavado, aplicación de ampolla, sellado y secado, recomendado para cabellos muy dañados o sin cuidados en casa.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          
+          </div>
+        </div>
+      </section>
+
+      <section class="section-md bg-gray-lighter text-center decor-text" >
+        <div class="container">
+          <h4 class="heading-decorated">El proceso de color</h4>
+          <div class="row row-30 justify-content-center">
+            <div class="col-sm-10 col-lg-6"><img class="color-image" src="images/color-bg.png" alt="" width="650" height="495"/>
+            </div>
+            <div class="col-sm-10 col-lg-6">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-circle">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-circle__icon"><span class="icon linear-icon-feather"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6">Contacto Previo</p>
+                    <p> Realizamos un primer contacto a través de nuestros medios de comunicación; Para este proceso necesitamos que nos envíes por favor una imagen ilustrativa de lo que quisieras lograr en tu cabello + imagen de tu cabello tomada con buena iluminación + información sobre la historia de tu cabello en los últimos 3 años ( si realizaste alisados, antifrizz, coloraciones, decoloraciónes, permanentes, etc.</p>
+                  </div>
+                </div>
+              </article>
+              <!-- Blurb circle-->
+              <article class="blurb blurb-circle">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-circle__icon"><span class="icon linear-icon-menu3"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6">Prueba de color</p>
+                    <p>En caso de ser necesario te solicitaremos que te dirijas al estudio para realizar una prueba de color para asegurarnos que podemos realizar el proyecto esperado o buscar alternativas en caso de ser necesario.</p>
+                  </div>
+                </div>
+              </article>
+              <!-- Blurb circle-->
+              <article class="blurb blurb-circle">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-circle__icon"><span class="icon linear-icon-bag2"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6">Presupuesto y ejecución</p>
+                    <p>Una vez definido el trabajo a realizar te brindaremos un presupuesto, te informaremos el valor de la seña y en caso de que estés de acuerdo procederemos a darte el turno. Sea cual sea el proceso que realicemos incluye cierre técnico ( acidificación ) y Finalización.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--cta-->
+      <!-- Call to Action-->
+      <section class="section-md bg-accent bg-image text-center bg-overlay-darker" style="background-image: url(images/cursos.png); background-position: center 50%;">
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-11 col-lg-9 col-xl-8"> 
+              <h3 class="heading-decorated">Querés capacitarte? Informate acerca de nuestros cursos</h3><a class="button button-primary" href="contacts.html">Cursos</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio-->
+      <section class="section-md bg-default text-center">
+        <div class="bg-decor d-flex align-items-center" data-parallax-scroll="{&quot;y&quot;: 50,  &quot;smoothness&quot;: 30}">
+        </div>
+        <div class="container">
+          <h4 class="heading-decorated">creaciones del estudio</h4>
+          <div class="isotope-wrap row row-70">
+            <div class="col-sm-12">
+              <ul class="list-nav isotope-filters isotope-filters-horizontal">
+                <li><a class="active" data-isotope-filter="*" data-isotope-group="gallery" ></a></li>
+              </ul>
+              <div class="isotope row" data-isotope-layout="fitRows" data-isotope-group="gallery">
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="img-thumbnail-variant-3" ><img src="images/rulos-1.png  " alt="" width="418" height="315"/>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-folder-picture"></span>
+                            <p class="heading-5 hover-top-element">Trabajo.</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Descripcion </p><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" href="images/rulos-2.png" data-lightgallery="item">
+                          <figure><img src="images/rulos-2.png" alt="" width="418" height="315"/>
+                          </figure>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-folder-picture"></span>
+                            <p class="heading-5 hover-top-element">Trabajo.</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Descripcion </p><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="img-thumbnail-variant-3" href="images/rulos-3.png" data-lightgallery="item">
+                          <figure><img src="images/rulos-3.png" alt="" width="418" height="315"/>
+                          </figure>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-folder-picture"></span>
+                            <p class="heading-5 hover-top-element">Trabajo.</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Descripcion </p><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" href="images/rulos-4.png" data-lightgallery="item">
+                          <figure><img src="images/rulos-4.png" alt="" width="418" height="315"/>
+                          </figure>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-folder-picture"></span>
+                            <p class="heading-5 hover-top-element">Trabajo.</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Descripcion </p><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" ><img src="images/color-1.png" alt="" width="418" height="315"/>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-folder-picture"></span>
+                            <p class="heading-5 hover-top-element">Trabajo.</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Descripcion </p><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="img-thumbnail-variant-3" href="images/color-2.png" data-lightgallery="item">
+                          <figure><img src="images/color-2.png" alt="" width="418" height="315"/>
+                          </figure>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-folder-picture"></span>
+                            <p class="heading-5 hover-top-element">Trabajo.</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Descripcion </p><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="img-thumbnail-variant-3" href="images/color-3.png" data-lightgallery="item">
+                          <figure><img src="images/color-3.png" alt="" width="418" height="315"/>
+                          </figure>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-folder-picture"></span>
+                            <p class="heading-5 hover-top-element">Trabajo.</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Descripcion </p><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="img-thumbnail-variant-3" href="images/color-4.png" data-lightgallery="item">
+                          <figure><img src="images/color-4.png" alt="" width="418" height="315"/>
+                          </figure>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-folder-picture"></span>
+                            <p class="heading-5 hover-top-element">Trabajo.</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Descripcion </p><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" ><img src="images/color-5.png" alt="" width="418" height="315"/>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-folder-picture"></span>
+                            <p class="heading-5 hover-top-element">Trabajo.</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Descripcion </p><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+      <!-- Page Footer-->
+    
+      <section class="section-md bg-accent bg-image text-center bg-overlay-darker tips" style="background-image: url(images/blog.png); background-position: center 50%;">
+        <div class="container">
+          <div class="row justify-content-md-end">
+            <div class="col-md-11 col-lg-9 col-xl-8"> 
+              <h3 class="heading-decorated">querés cuidar tu cabello? acá te compartimos tips</h3><a class="button call-toaction" href="./blog.html">BLOG</a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+        
+   
+
+      <footer class="section footer-variant-2 footer-modern context-dark section-top-image section-top-image-dark">
+        <div class="footer-variant-2-content">
+          <div class="container">
+            <div class="row row-40 justify-content-between footer-mark">
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="oh-desktop">
+                  <div class="wow slideInRight" data-wow-delay="0s">
+                    <div class="footer-brand"><a href="index.html"><img src="images/isologo-color.png" alt="" width="196" height="42"/></a></div>  
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-4 turno">
+                <div class="oh-desktop">
+                  <ul>
+                    <li><a class="icon fa fa-scissors" href="#"></a></li>
+                    <li><a><h5>reserva tu turno</h5></a></li>
+                  </ul>
+                   
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3">
+                <div class="oh-desktop">
+                  <div class="inset-top-18 wow slideInLeft" data-wow-delay="0s">
+                    <p class="text-white">Seguime</p>
+                    <div>
+                      <ul class="list-inline list-inline-sm footer-social-list-2">
+                        <li><a class="icon fa fa-facebook" href="#"></a></li>
+                        <li><a class="icon fa fa-google-plus" href="#"></a></li>
+                        <li><a class="icon fa fa-instagram" href="#"></a></li>
+                        <li><a class="icon fa fa-map-marker" href="#"></a></li>
+                      </ul>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-variant-2-bottom-panel">
+          <div class="container">
+            <!-- Rights-->
+           
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
